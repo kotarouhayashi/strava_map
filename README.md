@@ -26,4 +26,4 @@ poetry install
 poetry run python makehtml.py
 ```
 ### アウトプット
-![strava](images/strava.png "strava")
+<img width="364" alt="strava" src="https://user-images.githubusercontent.com/130144468/235284301-e600fa9f-8bd1-428f-b748-5ba0d5a0e814.png">
