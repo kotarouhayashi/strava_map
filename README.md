@@ -14,7 +14,7 @@ git clone git@github.com:kotarouhayashi/strava_map.git
 cd strava_map
 ```
 
-2. ストラバからダウンロードしてきたデータの中のactivitieをstrava_map/data/以下に配置
+2. ストラバからダウンロードしてきたデータの中のactivitiesディレクトリをstrava_map/data/以下に配置
 3. 仮想環境を構築
 ```
 poetry add $( cat requirements.txt )
@@ -26,4 +26,5 @@ poetry install
 poetry run python makehtml.py
 ```
 ### アウトプット
+↓のようなHTMLファイルが出来上がるので自分のブログ等に用いることが可能。
 <img width="364" alt="strava" src="https://user-images.githubusercontent.com/130144468/235284301-e600fa9f-8bd1-428f-b748-5ba0d5a0e814.png">
