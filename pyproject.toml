@@ -2,7 +2,7 @@
 name = "strava-map"
 version = "0.1.0"
 description = ""
-authors = ["hayashikotarou <884liberty@gmail.com>"]
+authors = ["hayashikotarou"]
 readme = "README.md"
 packages = [{include = "strava_map"}]
 
