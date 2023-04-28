@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "strava-map"
+version = "0.1.0"
+description = ""
+authors = ["hayashikotarou <884liberty@gmail.com>"]
+readme = "README.md"
+packages = [{include = "strava_map"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+gpxpy = "^1.5.0"
+folium = "^0.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
